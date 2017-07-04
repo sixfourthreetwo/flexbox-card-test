@@ -1,0 +1,94 @@
+html{
+
+}
+
+.main-container{
+    display: -webkit-flex;
+    display: flex;     
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.card{
+    width: 100px;
+    height: 200px;
+    border-width: 1.4px;
+    border-style: solid;
+    border-color: #e1e1e1;
+    background-color: #fff;
+    border-radius: 6px;
+    margin: 8px;
+    -webkit-box-shadow: 0px 6px 14px -5px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 6px 14px -5px rgba(0,0,0,0.4);
+    box-shadow: 0px 6px 14px -5px rgba(0,0,0,0.3);
+    
+}
+
+.col-1{
+    flex: 1;
+    -webkit-flex: 1;
+}
+
+.col-2{
+    flex: 1;
+    -webkit-flex: 1;
+}
+
+.col-3{
+    flex: 1;
+    -webkit-flex: 1;
+}
+
+.copy{
+    margin: 10px;
+        font-family:  -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica, Arial, “sans-serif”, “Apple Color Emoji”, “Segoe UI Emoji”, “Segoe UI Symbol”;
+}
+
+.title{
+    color: #1d1d1d;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.main {
+    color: #bcbcbc;
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 600px){
+  .main-container {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+     display: -webkit-flex;
+    display: flex;  
+    }
+      
+    .card{
+    width: 90%;
+    height: 150px;
+    border-width: 1.4px;
+    border-style: solid;
+    border-color: #e1e1e1;
+    background-color: #fff;
+    border-radius: 6px;
+    margin: 8px;
+    -webkit-box-shadow: 0px 6px 14px -5px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 6px 14px -5px rgba(0,0,0,0.4);
+    box-shadow: 0px 6px 14px -5px rgba(0,0,0,0.3);
+    
+    }
+.title{
+    color: #1d1d1d;
+    font-size: 1.0em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.main {
+    color: #bcbcbc;
+    font-size: 0.7em;
+}
+}
