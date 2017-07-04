@@ -59,36 +59,36 @@ html{
 }
 
 @media screen and (max-width: 600px){
-  .main-container {
-    -webkit-flex-direction: column;
-    flex-direction: column;
-     display: -webkit-flex;
-    display: flex;  
+    .main-container {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+         display: -webkit-flex;
+        display: flex;  
     }
       
     .card{
-    width: 90%;
-    height: 150px;
-    border-width: 1.4px;
-    border-style: solid;
-    border-color: #e1e1e1;
-    background-color: #fff;
-    border-radius: 6px;
-    margin: 8px;
-    -webkit-box-shadow: 0px 6px 14px -5px rgba(0,0,0,0.4);
-    -moz-box-shadow: 0px 6px 14px -5px rgba(0,0,0,0.4);
-    box-shadow: 0px 6px 14px -5px rgba(0,0,0,0.3);
+        width: 90%;
+        height: 150px;
+        border-width: 1.4px;
+        border-style: solid;
+        border-color: #e1e1e1;
+        background-color: #fff;
+        border-radius: 6px;
+        margin: 8px;
+        -webkit-box-shadow: 0px 6px 14px -5px rgba(0,0,0,0.4);
+        -moz-box-shadow: 0px 6px 14px -5px rgba(0,0,0,0.4);
+        box-shadow: 0px 6px 14px -5px rgba(0,0,0,0.3);
     
     }
 .title{
-    color: #1d1d1d;
-    font-size: 1.0em;
-    font-weight: 600;
-    text-transform: uppercase;
+        color: #1d1d1d;
+        font-size: 1.0em;
+        font-weight: 600;
+        text-transform: uppercase;
 }
 
 .main {
-    color: #bcbcbc;
-    font-size: 0.7em;
+        color: #bcbcbc;
+        font-size: 0.7em;
 }
 }
